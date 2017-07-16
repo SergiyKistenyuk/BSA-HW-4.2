@@ -37,7 +37,7 @@ Request body: id - ID користувачa.
 	      email - e-mail користувачa.
 Змінює користувача з даним ID в списку користувачів.
 
-#### h4 /api/user/contacts/:id
+#### /api/user/contacts/:id
 Method: GET.
 Query params: id - ID користувачa.
 Повертає список користувачів з якими спілкувався user з даним ID.
