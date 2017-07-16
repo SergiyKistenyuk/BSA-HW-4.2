@@ -24,11 +24,12 @@ Method: POST.
 
 Query params: id - ID користувачa.
 
-Request body: id - ID користувачa.
+Request body: 
+- id - ID користувачa.
 
-	      name - ім'я користувачa.
+- name - ім'я користувачa.
 	      
-	      email - e-mail користувачa.
+- email - e-mail користувачa.
 	      
 Додає нового користувача в список користувачів. Повертає нового користувача.
 
@@ -44,11 +45,12 @@ Method: PUT.
 
 Query params: id - ID користувачa.
 
-Request body: id - ID користувачa.
+Request body: 
+- id - ID користувачa.
 
-	      name - ім'я користувачa.
+- name - ім'я користувачa.
 	      
-	      email - e-mail користувачa.
+- email - e-mail користувачa.
 	      
 Змінює користувача з даним ID в списку користувачів.
 
@@ -72,17 +74,18 @@ Query params: id - ID повідомлення.
 Повертає список всіх повідомлень з даним ID.
 
 #### /api/message/:id
-Method: POST.
+Method: POST. 
 
 Query params: id - ID повідомлення.
 
-Request body: id - ID повідомлення.
+Request body: 
+- id - ID повідомлення.
 
-	      senderId - ID користувачa, що відправив повідомлення.
+- senderId - ID користувачa, що відправив повідомлення.
 	      
-	      receiverId - ID користувачa, що отримав повідомлення.
+- receiverId - ID користувачa, що отримав повідомлення.
 	      
-	      message - текст повідомлення.
+- message - текст повідомлення.
 	      
 Додає нове повідомлення в список повідомлень. Повертає нове повідомлення.
 
@@ -98,12 +101,13 @@ Method: PUT.
 
 Query params: id - ID повідомлення.
 
-Request body: id - ID повідомлення.
+Request body: 
+- id - ID повідомлення.
 
-	      senderId - ID користувачa, що відправив повідомлення.
+- senderId - ID користувачa, що відправив повідомлення.
 	      
-	      receiverId - ID користувачa, що отримав повідомлення.
+- receiverId - ID користувачa, що отримав повідомлення.
 	      
-	      message - текст повідомлення.
+- message - текст повідомлення.
 	      
 Змінює повідомлення з даним ID в списку повідомлень.
