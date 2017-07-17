@@ -5,7 +5,11 @@
 1. npm install
 1. node ./
 1. in browser go to localhost:3000
+
 ***
+
+## User API
+
 
 #### /api/user/
 Method: GET.
@@ -60,6 +64,11 @@ Method: GET.
 Query params: id - ID користувачa.
 
 Повертає список користувачів з якими спілкувався user з даним ID.
+
+***
+
+## Message API
+
 
 #### /api/message/
 Method: GET.
